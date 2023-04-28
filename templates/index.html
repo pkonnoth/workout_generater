@@ -1,0 +1,33 @@
+
+<div class="form-box">
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <form action="login.php" method="post">
+        <h1>Login</h1>
+        <input type="text" id="username" name="username" placeholder="username" class="username-input">
+        <div class="loading">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+
+
+
+        <input type="password" id="password" name="password" placeholder="password">
+
+        <input type="submit" value="Login"
+        <link rel="" href="register.html">
+        <p class="signin">Dont have an account then signup?<a href="{{ url_for('register') }}"> signup</a> </p>
+
+        <link rel="" href="register.html">
+    </form>
+
+</div>
